@@ -53,10 +53,14 @@ Botty has a default dataset file called `response_dataset.csv`. This is easily e
 *Feel free to open a pull request to extend the default file.*
 
 &nbsp;
-# Running Botty 🚀
+# Running Botty Locally 🚀
 ```javascript
 yarn
 
 # Botty will be available through socket.io on the port defined through the PORT constant
 yarn start
 ```
+
+&nbsp;
+# Botty Demo 🚀
+Botty is currently hosted and waiting to chat to your app at https://botty-beep-boop.herokuapp.com/ .
