@@ -1,0 +1,15 @@
+{
+  "name": "botty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3",
+    "string-similarity": "^4.0.3"
+  }
+}
