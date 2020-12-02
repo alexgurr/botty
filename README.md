@@ -1,9 +1,6 @@
 ![](https://puu.sh/GTori/c6f7e9cae8.jpg)
 
-# Botty 🤖
-
-A basic conversational bot using socket.io and nodeJS.
-
+# Botty, a basic conversational bot using socket.io and nodeJS.
 
 &nbsp;
 # Configuring Botty 🔧
