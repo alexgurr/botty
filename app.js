@@ -26,6 +26,7 @@ let botResponses = null;
 
 app.use(router);
 app.use(cors({ origin: '*' }));
+app.use(express.static(__dirname + '/public'));
 
 io.on('connection', (socket) => {
   socket.on(USER_MESSAGE_EVENT, (message) => {
