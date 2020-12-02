@@ -1,4 +1,4 @@
-const PORT = 4001;
+const PORT = process.env.PORT || 4001;
 const RESPONSES_FILE_PATH = './response_dataset.csv';
 const RESPONSES_INPUT_KEY = 'input';
 const RESPONSES_OUTPUT_KEY = 'output';
