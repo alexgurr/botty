@@ -1,6 +1,9 @@
-![](https://puu.sh/GTori/c6f7e9cae8.jpg)
+<p align="center">
+  <img src="https://puu.sh/GTori/c6f7e9cae8.jpg">
+  <h1> Botty, a basic conversational bot using socket.io and nodeJS.</h1>
+</p>
 
-# Botty, a basic conversational bot using socket.io and nodeJS.
+###
 
 &nbsp;
 # Configuring Botty 🔧
