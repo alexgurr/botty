@@ -62,5 +62,5 @@ yarn start
 ```
 
 &nbsp;
-# Botty Demo 🚀 ![soon](https://badgen.net/badge/status/coming%20soon/green?icon=)
+# Botty in the ☁️
 Botty is currently hosted and waiting to chat to your app at https://botty-beep-boop.herokuapp.com/ .
