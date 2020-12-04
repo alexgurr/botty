@@ -29,9 +29,7 @@ app.use(cors({ origin: '*' }));
 app.use(express.static(__dirname + '/public'));
 
 io.on('connection', (socket) => {
-  console.log('Connected to a socket.');
   socket.on(USER_MESSAGE_EVENT, (message) => {
-    console.log('Got user event');
     setTimeout(() => {
       // Don't emit a typing event if we've set typing seconds to 0
       if(MAX_TYPING_S) { socket.emit(BOT_TYPING_EVENT); }
