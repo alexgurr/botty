@@ -3,7 +3,27 @@
   <h1 align="center"> Botty, a basic conversational bot using socket.io and nodeJS.</h1>
 </p>
 
-###
+&nbsp;
+# Talking to Botty 💬
+
+Botty is built on top of `socket.io` by default, meaning you should use a client implementation of this to talk to it.
+
+In JavaScript we can simply do something like:
+
+```javascript
+import io from 'socket.io-client';
+
+const socket = io(
+  'https://botty-beep-boop.herokuapp.com',
+  { transports: ['websocket', 'polling', 'flashsocket'] }
+);
+
+socket.on('bot-message', (message) => {
+  // do something
+});
+```
+
+Botty is simple and cleanly written. This makes it easy to swap out `socket.io` for a general web socket or `REST` solution for example.
 
 &nbsp;
 # Configuring Botty 🔧
