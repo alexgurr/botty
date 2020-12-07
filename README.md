@@ -4,6 +4,17 @@
 </p>
 
 &nbsp;
+&nbsp;
+# Table of contents
+- [Talking to Botty 💬](#talking-to-botty-)
+- [Configuring Botty 🔧](#configuring-botty-)
+  * [General](#general)
+  * [Natural Defaults](#natural-defaults)
+- [Extending Botty's Responses ✍️](#extending-bottys-responses-%EF%B8%8F)
+- [Running Botty Locally 🚀](#running-botty-locally-)
+- [Botty in the ☁️](#botty-in-the-%EF%B8%8F)
+
+&nbsp;
 # Talking to Botty 💬
 
 Botty is built on top of `socket.io` by default, meaning you should use a client implementation of this to talk to it.
