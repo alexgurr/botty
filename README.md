@@ -5,7 +5,7 @@
 
 &nbsp;
 &nbsp;
-# Table of contents
+# Table of Contents 📝
 - [Talking to Botty 💬](#talking-to-botty-)
 - [Configuring Botty 🔧](#configuring-botty-)
   * [General](#general)
