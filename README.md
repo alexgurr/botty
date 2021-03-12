@@ -9,7 +9,7 @@
 - [Talking to Botty 💬](#talking-to-botty-)
 - [Configuring Botty 🔧](#configuring-botty-)
   * [General](#general)
-  * [Natural Defaults](#natural-defaults)
+  * [Interaction](#interaction)
 - [Extending Botty's Responses ✍️](#extending-bottys-responses-%EF%B8%8F)
 - [Running Botty Locally 🚀](#running-botty-locally-)
 - [Botty in the ☁️](#botty-in-the-%EF%B8%8F)
@@ -56,7 +56,7 @@ Botty has an easy-to-change constants file, called `constants.js` in the root of
 
 - `BOT_TYPING_EVENT`: the event string Botty will emit when typing a response. If `MAX_TYPING_S` is falsy, this event will never be emitted.
 
-## Natural Defaults 
+## Interaction 
 *Things to make Botty seem more real*
 
 - `DEFAULT_RESPONSE`: the message Botty replies with if it finds no response matches.
