@@ -43,17 +43,17 @@ Botty has an easy-to-change constants file, called `constants.js` in the root of
 ## General
 *General configuration*
 - `PORT`: where the Botty server should listen.
+  
+- `RESPONSES_FILE_PATH`: the file location of the dataset file Botty should source it's responses from. Expects a csv file with keys matching `RESPONSES_INPUT_KEY` and `RESPONSES_OUTPUT_KEY below.
 
-  
-- `RESPONSES_FILE_PATH`: the file location of the dataset file Botty should source it's responses from. Expects a csv file with keys matching **RESPONSES_INPUT_KEY** and **RESPONSES_OUTPUT_KEY**.
-  
+- `RESPONSES_INPUT_KEY`: the name of the input (matched phrase) column in the csv file above
+
+- `RESPONSES_OUTPUT_KEY`: the name of the output (message) column in the csv file above
 
 - `USER_MESSAGE_EVENT`: the event string Botty listens to for user socket messages.
-  
 
 - `BOT_MESSAGE_EVENT`: the event string Botty will emit for it's reponse messages.
   
-
 - `BOT_TYPING_EVENT`: the event string Botty will emit when typing a response. If `MAX_TYPING_S` is falsy, this event will never be emitted.
 
 ## Interaction 
@@ -61,21 +61,16 @@ Botty has an easy-to-change constants file, called `constants.js` in the root of
 
 - `DEFAULT_RESPONSE`: the message Botty replies with if it finds no response matches.
   
-
 - `RESPONSE_MATCH_THRESHOLD`: Botty response-matching tolerance. The lower this value, the looser the matches. 
   
-
 - `MIN_TYPING_S`: the minimum value Botty should 'type' for, in seconds.
-  
 
 - `MAX_TYPING_S`: the maximum value Botty should 'type' for, in seconds. Set this to 0 to skip typing events.
   
-
 - `MIN_NATURAL_PAUSE_S`: the minimum pause Botty will take before emitting it's first event, in seconds.
-  
 
 - `MAX_NATURAL_PAUSE_S`: the maximum pause Botty will take before emitting it's first event, in seconds.
-`
+
 
 &nbsp;
 # Extending Botty's Responses ✍️
