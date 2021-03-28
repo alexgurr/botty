@@ -25,7 +25,7 @@ In JavaScript we can simply do something like:
 import io from 'socket.io-client';
 
 const socket = io(
-  'https://botty-beep-boop.herokuapp.com',
+  'https://botty.alexgurr.com',
   { transports: ['websocket', 'polling', 'flashsocket'] }
 );
 
@@ -94,4 +94,4 @@ yarn start
 
 &nbsp;
 # Botty in the ☁️
-Botty is currently hosted and waiting to chat to your app at https://botty-beep-boop.herokuapp.com/ .
+Botty is currently hosted and waiting to chat to your app at https://botty.alexgurr.com/ .
