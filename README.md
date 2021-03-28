@@ -89,6 +89,6 @@ yarn start
 
 &nbsp;
 # Botty in the ☁️
-Botty is currently hosted and waiting to chat to your app at https://botty.alexgurr.com/. The server isn't free - if you'd like to help out <a href="https://www.buymeacoffee.com/alexgurr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="30" width="130"></a>.
+Botty is currently hosted and waiting to chat to your app at https://botty.alexgurr.com/. The server isn't free - if you'd like to help out you could <a href="https://www.buymeacoffee.com/alexgurr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="30" width="130"></a>
 
 Botty is currently actively used in the [Chatter](https://github.com/alexgurr/react-coding-challenges/tree/master/chatter) ReactJS Coding Challenge.
