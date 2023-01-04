@@ -44,7 +44,7 @@ Botty has an easy-to-change constants file, called `constants.js` in the root of
 *General configuration*
 - `PORT`: where the Botty server should listen.
   
-- `RESPONSES_FILE_PATH`: the file location of the dataset file Botty should source it's responses from. Expects a csv file with keys matching `RESPONSES_INPUT_KEY` and `RESPONSES_OUTPUT_KEY below.
+- `RESPONSES_FILE_PATH`: the file location of the dataset file Botty should source it's responses from. Expects a csv file with keys matching `RESPONSES_INPUT_KEY` and `RESPONSES_OUTPUT_KEY` below.
 
 - `RESPONSES_INPUT_KEY`: the name of the input (matched phrase) column in the csv file above
 
